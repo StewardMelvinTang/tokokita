@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    tools:context=".Login_Activity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:src="@drawable/tokokita_logo">
+    </ImageView>
+
+    <EditText
+        android:id="@+id/TB_Username"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:hint="Username"
+        android:singleLine="true">
+    </EditText>
+
+    <EditText
+        android:id="@+id/TB_Password"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:hint="Password"
+        android:password="true"
+        android:singleLine="true">
+    </EditText>
+
+    <Button
+
+        android:id="@+id/BTN_Login"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:background="@drawable/button_rounded"
+        android:backgroundTint="@color/purple_500">
+    </Button>
+
+</LinearLayout>
